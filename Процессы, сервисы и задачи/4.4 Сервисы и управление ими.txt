@@ -1,0 +1,5 @@
+4.4 Сервисы и управление ими
+
+service cron stop - остановить cron
+service cron status - просмотреть статус cron
+service cron start - запустить cron
