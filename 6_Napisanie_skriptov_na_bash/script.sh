@@ -1,2 +1,8 @@
 #!/usr/bin/env bash
-echo "text"
+COUNTER=1
+while ["$1" != ""]
+do
+    echo "Parameter $COUNTER equals $1"
+    shift
+done
+
